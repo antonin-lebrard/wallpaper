@@ -1,4 +1,9 @@
-# wallpaper [![Build Status](https://travis-ci.org/sindresorhus/wallpaper.svg?branch=master)](https://travis-ci.org/sindresorhus/wallpaper) [![Build status](https://ci.appveyor.com/api/projects/status/xhwaihmhhplh5d05/branch/master?svg=true)](https://ci.appveyor.com/project/sindresorhus/wallpaper/branch/master)
+Modification of [https://github.com/sindresorhus/wallpaper](https://github.com/sindresorhus/wallpaper)
+to make available scaling options for linux under GNOME environment supporting gsettings (tested on ubuntu 16.04)
+
+Original README :
+
+# wallpaper
 
 > Get or set the desktop wallpaper
 
@@ -54,7 +59,7 @@ Type: `string`<br>
 Values: `fill` `fit` `stretch` `center`<br>
 Default: Current system setting
 
-Scaling method. Only available on macOS.
+Scaling method. Only available on macOS. <b>Now available for Linux under GNOME</b>
 
 
 ## Related
